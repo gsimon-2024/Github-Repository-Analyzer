@@ -40,6 +40,9 @@ A Flask web app to analyze public GitHub repositories and present insights using
    ```
 
    Note: Replace 'your_token_here' with your GitHub token or omit the -e flag to run without a token.
+   ```bash
+   docker run -p 5000:5000 github-repo-analyzer
+   ```
 
 ## Manual Installation (Alternative)
 
